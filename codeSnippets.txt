@@ -1,0 +1,8 @@
+let alertBox = document.querySelector('.alert-messg');
+
+function alertMessg(){
+  alertBox.classList.remove('translate')
+  setTimeout(() => {
+ alertBox.classList.add('translate')
+  }, 1500);
+}
